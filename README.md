@@ -74,7 +74,70 @@ lib/
 │ └── custom_app_bar.dart
 └── utils/
 └── constants.dart
+🔧 Technologies Used
+Framework: Flutter 3.0+
 
+Language: Dart 2.19+
+
+State Management: Provider 6.0+
+
+Navigation: Flutter Navigator 2.0
+
+UI Components: Material Design 3
+
+Version Control: Git & GitHub
+
+📋 Requirements Met
+Functional Requirements
+✅ FR1: All screens from FlutterFlow prototype (min. 3 screens)
+
+✅ FR2: Complete navigation flows between screens
+
+✅ FR3: All local state logic implemented (favorites, toggles, forms)
+
+✅ FR4: Provider + ChangeNotifier for state management
+
+✅ FR5: Static assets and custom typography correctly loaded
+
+Non-Functional Requirements
+✅ NFR1: Modular, well-commented code with best practices
+
+✅ NFR2: Responsive design tested on multiple screen sizes
+
+✅ NFR3: Code follows Dart conventions and is readable
+
+👥 Development Team
+Jaspher Ikan D. Samarista (422001967)
+
+Krizandra Josephine Basit (423002468)
+
+Carmela Lemoncito (422001796)
+
+Christopher John Ongdico (422004964)
+
+Thria Royella P. Peñamante (423000847)
+
+Course: PC16 - Mobile Development
+Instructor: Prof. Justin Luoise R. Neypes
+Institution: National Teachers College
+Date: December 2025
+
+📄 Documentation
+Software Implementation & Design Document (SIDD)
+
+Project Presentation Video
+
+FlutterFlow Prototype
+
+📝 License
+This project is for educational purposes as part of PC16 - Mobile Development course requirements.
+
+🙏 Acknowledgments
+Prof. Justin Luoise R. Neypes for guidance
+
+Flutter & Dart communities for excellent documentation
+
+FlutterFlow for the initial prototyping platform
 ## 🚀 How to Run
 
 ### Prerequisites
