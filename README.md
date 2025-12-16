@@ -7,7 +7,7 @@
 
 A native Flutter mobile application for purchasing medicines and health essentials online. This project is a manual re-implementation of a FlutterFlow prototype, built with pixel-perfect UI fidelity and professional state management.
 
-## 📱 App Overview
+App Overview
 The Digital Medical Store System enables users to:
 - Browse medicines and health products
 - Add items to cart and favorites
@@ -17,14 +17,14 @@ The Digital Medical Store System enables users to:
 
 **Target Users:** General customers and pharmacy administrators.
 
-## 🎯 Project Purpose
+Project Purpose
 This project demonstrates the transition from low-code (FlutterFlow) to high-code (Native Flutter) development, focusing on:
 - Pixel-perfect UI implementation
 - Professional state management with Provider
 - Clean architecture and maintainable code
 - Comprehensive documentation
 
-## 🖼️ Side-by-Side Comparison
+Side-by-Side Comparison
 
 | FlutterFlow Prototype | Native Flutter Implementation |
 |----------------------|-------------------------------|
@@ -32,8 +32,8 @@ This project demonstrates the transition from low-code (FlutterFlow) to high-cod
 
 *Note: Replace with actual GIF or side-by-side screenshots*
 
-## ✨ Features
-### ✅ Implemented
+Features
+Implemented
 - **User Authentication Screens** (Login, Sign Up, Get Started)
 - **Home Screen** with product listing and categories
 - **Product Details Screen** with complete information
@@ -43,13 +43,13 @@ This project demonstrates the transition from low-code (FlutterFlow) to high-cod
 - **Responsive Design** for multiple screen sizes
 - **Provider State Management** across all screens
 
-### 🔄 State Management
+State Management
 - **Provider + ChangeNotifier** for shared state
 - **Cart Provider**: Manages shopping cart items
 - **Favorites Provider**: Handles favorite products
 - **Product Provider**: Manages product data
 
-## 🏗️ Project Architecture
+Project Architecture
 lib/
 ├── main.dart
 ├── screens/
@@ -74,7 +74,7 @@ lib/
 │ └── custom_app_bar.dart
 └── utils/
 └── constants.dart
-🔧 Technologies Used
+Technologies Used
 Framework: Flutter 3.0+
 
 Language: Dart 2.19+
@@ -87,7 +87,7 @@ UI Components: Material Design 3
 
 Version Control: Git & GitHub
 
-📋 Requirements Met
+Requirements Met
 Functional Requirements
 ✅ FR1: All screens from FlutterFlow prototype (min. 3 screens)
 
@@ -106,7 +106,7 @@ Non-Functional Requirements
 
 ✅ NFR3: Code follows Dart conventions and is readable
 
-👥 Development Team
+Development Team
 Jaspher Ikan D. Samarista (422001967)
 
 Krizandra Josephine Basit (423002468)
@@ -122,25 +122,25 @@ Instructor: Prof. Justin Luoise R. Neypes
 Institution: National Teachers College
 Date: December 2025
 
-📄 Documentation
+Documentation
 Software Implementation & Design Document (SIDD)
 
 Project Presentation Video
 
 FlutterFlow Prototype
 
-📝 License
+License
 This project is for educational purposes as part of PC16 - Mobile Development course requirements.
 
-🙏 Acknowledgments
+Acknowledgments
 Prof. Justin Luoise R. Neypes for guidance
 
 Flutter & Dart communities for excellent documentation
 
 FlutterFlow for the initial prototyping platform
-## 🚀 How to Run
+How to Run
 
-### Prerequisites
+Prerequisites
 - Flutter SDK 3.0 or higher
 - Dart 2.19 or higher
 - IDE: VS Code or Android Studio
