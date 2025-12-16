@@ -1,19 +1,83 @@
-# Hello World
+# Digital Medical Store System 💊
 
-A new Flutter project created with FlutLab - https://flutlab.io
+![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue)
+![Dart](https://img.shields.io/badge/Dart-2.19+-blue)
+![Provider](https://img.shields.io/badge/State%20Management-Provider-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## Getting Started
+A native Flutter mobile application for purchasing medicines and health essentials online. This project is a manual re-implementation of a FlutterFlow prototype, built with pixel-perfect UI fidelity and professional state management.
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 App Overview
+The Digital Medical Store System enables users to:
+- Browse medicines and health products
+- Add items to cart and favorites
+- View detailed product information
+- Experience a seamless mobile checkout process
+- Manage products (Admin side)
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+**Target Users:** General customers and pharmacy administrators.
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎯 Project Purpose
+This project demonstrates the transition from low-code (FlutterFlow) to high-code (Native Flutter) development, focusing on:
+- Pixel-perfect UI implementation
+- Professional state management with Provider
+- Clean architecture and maintainable code
+- Comprehensive documentation
 
-## Getting Started: FlutLab - Flutter Online IDE
+## 🖼️ Side-by-Side Comparison
 
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+| FlutterFlow Prototype | Native Flutter Implementation |
+|----------------------|-------------------------------|
+| ![FlutterFlow Screenshot](link-to-flutterflow-screenshot) | ![Native Flutter Screenshot](link-to-native-screenshot) |
+
+*Note: Replace with actual GIF or side-by-side screenshots*
+
+## ✨ Features
+### ✅ Implemented
+- **User Authentication Screens** (Login, Sign Up, Get Started)
+- **Home Screen** with product listing and categories
+- **Product Details Screen** with complete information
+- **Shopping Cart** with item management
+- **Favorites System** with persistent state
+- **Admin Dashboard** for product management
+- **Responsive Design** for multiple screen sizes
+- **Provider State Management** across all screens
+
+### 🔄 State Management
+- **Provider + ChangeNotifier** for shared state
+- **Cart Provider**: Manages shopping cart items
+- **Favorites Provider**: Handles favorite products
+- **Product Provider**: Manages product data
+
+## 🏗️ Project Architecture
+lib/
+├── main.dart
+├── screens/
+│ ├── login_screen.dart
+│ ├── home_screen.dart
+│ ├── product_details_screen.dart
+│ ├── cart_screen.dart
+│ ├── checkout_screen.dart
+│ └── admin/
+│ ├── admin_dashboard.dart
+│ └── product_management.dart
+├── providers/
+│ ├── cart_provider.dart
+│ ├── favorites_provider.dart
+│ └── product_provider.dart
+├── models/
+│ ├── product.dart
+│ └── cart_item.dart
+├── widgets/
+│ ├── product_card.dart
+│ ├── category_chip.dart
+│ └── custom_app_bar.dart
+└── utils/
+└── constants.dart
+
+## 🚀 How to Run
+
+### Prerequisites
+- Flutter SDK 3.0 or higher
+- Dart 2.19 or higher
+- IDE: VS Code or Android Studio
